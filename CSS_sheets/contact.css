@@ -1,0 +1,70 @@
+:root {
+  --primary: #8c38ff;
+  --light: #EEEEEE;
+  --dark: #212121
+}
+
+.email {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.form--email {
+  display: flexbox;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+input[type=text],
+textarea,label,
+input[type=email] {
+  display: inline-flex;
+  width: 50%;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 6px;
+ 
+}
+
+.header--email {
+  text-align: center;
+  padding: 12px;
+}
+
+
+
+.submit-button {
+  align-self: center;
+  display: inline-flexbox;
+  color: #fff;
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 16px 16px;
+  border-radius: 99px;
+  border: none;
+  font-size: 15PX;
+  background-color: var(--dark);
+}
+
+.submit-button:hover {
+  background-color: var(--primary);
+}
+.title--email{
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+label{
+  font-size: 18px;
+  font-weight: 90;
+  text-transform: uppercase;
+}

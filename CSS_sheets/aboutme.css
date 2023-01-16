@@ -1,0 +1,50 @@
+:root {
+  --primary: #8c38ff;
+  --light: #EEEEEE;
+  --dark: #212121
+}
+.header--me{
+  font-size: 40px;
+}
+.me{
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+h2{
+  display: inline-block;
+  border-bottom: 5px solid var(--primary);
+  margin: 16px 0;
+}
+.date{
+  float: right;
+}
+ul{
+  list-style-type: circle;
+}
+h3{
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+p{
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 6px;
+}
+li{
+  margin: 15px 0;
+}
+.project{
+  
+  
+  font-weight: 500;
+  margin: 200px 0px;
+  text-decoration: none;
+}
+.project:hover{
+  color: #8c38ff;
+  text-decoration: underline;
+}

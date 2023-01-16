@@ -1,0 +1,104 @@
+:root {
+  --primary: #8c38ff;
+  --light: #EEEEEE;
+  --dark: #212121
+}
+.projet{
+  padding-top: 100px;
+  padding-bottom: 20px ;
+}
+
+.projet header{
+  padding-left: 80px;
+  /* text-align: center; */
+  font-size: 30px;
+  margin-bottom:20px ;
+  
+  
+}
+.gallery{
+  display: flexbox;
+  
+}
+.gallery *{
+  padding: 0;
+  margin: 0
+}
+
+.c1{
+  display: inline-flex;
+position: relative;
+width: 33%;
+}
+.c2{
+  display: inline-flex;
+  position: relative;
+  width: 33%;
+
+  }
+.c3{
+  display: inline-flex;
+  position: relative;
+  width: 33%;
+
+
+    
+}
+
+
+.image {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--primary);
+}
+
+.c1:hover .overlay {
+  opacity: 1;
+}
+.c2:hover .overlay {
+  opacity: 1;
+}
+.c3:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text a{
+  text-decoration: none;
+  color: var(--light);
+  font-weight: 400;
+
+}
+.contact{
+  
+  
+    font-weight: 500;
+    margin: 200px 0px;
+    text-decoration: none;
+}
+  .contact:hover{
+    color: #8c38ff;
+    text-decoration: underline;
+  }

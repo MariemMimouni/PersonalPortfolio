@@ -1,0 +1,69 @@
+:root {
+  --primary: #8c38ff;
+  --light: #EEEEEE;
+  --dark: #212121
+}
+
+.IIT{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* em unit is relative to the screen size the website is displayed on */
+  grid-gap: 20 px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.logo--iit {
+  grid-column: 2/3;
+  box-sizing: border-box;
+  /* border: #8c38ff solid 2px; */
+
+}
+
+.header--iit {
+  padding-left: 10px;
+  padding-top: 60px;
+  margin-bottom: 6px;
+  grid-column: span 3;
+}
+
+.subtitle--iit {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: var(--light);
+  display: inline-block;
+  letter-spacing: 3px;
+  background-color: var(--primary);
+  inset-inline-end: auto;
+}
+.desc--iit{
+  padding: 5px 0;
+}
+.title--iit {
+  padding: 15px 0;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+a{
+  align-self: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+div {
+
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+
+}
+.video{
+ 
+  grid-column: 3/5;
+  padding-bottom: 15px;
+ 
+}

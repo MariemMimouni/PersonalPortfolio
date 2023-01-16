@@ -1,0 +1,102 @@
+:root {
+  --primary: #8c38ff;
+  --light: #EEEEEE;
+  --dark: #212121
+}
+
+.intro {
+  padding-top: 100px;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr); */
+  /* em unit is relative to the screen size the website is displayed on */
+  /* grid-gap: 20 px; */
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.img--intro {
+  display: none;
+  grid-column: 2/3;
+  box-sizing: border-box;
+
+  /* border: #8c38ff solid 2px; */
+
+}
+.footer{
+  /* display: none; */
+  position: fixed;
+  bottom :0;
+  left:0;
+  right:0;
+  z-index: 99;
+}
+
+.header--intro {
+  padding-left: 10px;
+  padding-top: 60px;
+  margin-bottom: 6px;
+  /* grid-column: span 3; */
+}
+
+.subtitle--intro {
+  padding: 5px;
+  font-size: 27px;
+  color: var(--light);
+  display: inline-block;
+  letter-spacing: 3px;
+  background-color: var(--primary);
+  inset-inline-end: auto;
+}
+
+.title--intro {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: italic;
+  display: inline-block;
+  border-bottom: #8c38ff 4px solid;
+}
+
+.name--intro {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 0;
+  
+}
+
+.bio {
+  width: 70%;
+  padding: 16px 80px 16px 60px;
+}
+.bio p{
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+.about{
+  
+  font-weight: 500;
+  margin: 200px 0px;
+  text-decoration: none;
+}
+.about:hover{
+  color: #8c38ff;
+  text-decoration: underline;
+}
+.links{
+  color: var(--dark);
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.4s;
+  border-radius: 50px;
+  padding: 10px;
+}
+.links:hover{
+  color: var(--primary);
+  font-style: italic;
+  text-decoration: underline;
+}
